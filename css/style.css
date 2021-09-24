@@ -278,6 +278,10 @@ body {
 .feedback {
   height: 448px;
   background-image: url(../img/photo_subscribe.jpeg);
+  background-color: #E5E5E5;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 
 .footer {
