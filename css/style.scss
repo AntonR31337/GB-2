@@ -215,7 +215,24 @@ body {
     display: flex;
     text-align: center;
     color: #FBFBFB;
+    list-style-type: none;
+    align-items: center;
+}
+.advantages-item {
+   width: 360px;
+}
 
+.atvantages-item-text-header {
+    font-size: 19.96px;
+    line-height: 24px;
+    color: #FBFBFB;
+    margin: 28px 0 16px 0;
+}
+.atvantages-item-text-small {
+    font-weight: 300;
+    font-size: 13.972px;
+    line-height: 17px;
+    color: #FBFBFB;
 }
 
 .feedback {
