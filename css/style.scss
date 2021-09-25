@@ -51,6 +51,37 @@ body {
     background-color: transparent;
     border: none;
 }
+.breadcrumb-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 51px;
+}
+.breadcrumb-wrap-list {
+    list-style-type: none;
+    display: flex;
+}
+.breadcrumb-wrap-list-item {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #636363;
+    margin-left: 5px;
+}
+.breadcrumb-wrap-list .active {
+    color: #F16D7F;
+    font-weight: bold;
+}
+.breadcrumb {
+    background: #F8F3F4;
+}
+.breadcrumb-wrap-text-header {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F16D7F;
+    padding: 60px 0;
+}
 
 .offer {
     background: #F1E4E6;
