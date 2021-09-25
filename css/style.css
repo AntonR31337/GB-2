@@ -397,6 +397,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 32px;
 }
 
 .subscribe-field {

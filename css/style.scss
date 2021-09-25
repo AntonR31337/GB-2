@@ -302,6 +302,7 @@ body {
 }
 .subscribe-button-container {
     display: flex;
+    margin-top: 32px;
 }
 .subscribe-field {
     padding: 20px;
@@ -337,17 +338,14 @@ body {
 .subscribe-button:hover {
     background: #f34b61;
 }
-
 .footer {
     background-color: #222222;
 }
-
 .footer-wrap {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 .footer-copyrites {
     margin: 30px 0;
     font-weight: 300;
@@ -355,7 +353,6 @@ body {
     line-height: 19px;
     color: #FBFBFB;
 }
-
 .footer-wrap-sociallinks {
     display: flex;
     list-style-type: none;
