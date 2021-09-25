@@ -249,6 +249,23 @@ body {
     color: #F26376;
     outline: 1px solid;
 }
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+.pagination-wrap {
+    display: flex;
+    justify-content: center;
+    margin: 18px 0 96px;
+    border: 1px solid #EBEBEB;
+}
+.pagination-wrap-list {
+    list-style-type: none;
+    display: flex;
+    width: 284px;
+    justify-content: space-around;
+    margin: 12px 0;
+}
 
 .advantages {
     background-color: #222222;
