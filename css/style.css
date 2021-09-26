@@ -486,11 +486,17 @@ body {
   line-height: 17px;
   font-weight: normal;
   opacity: 0.67;
-  border: unset;
+  outline: none;
+  border: 1px solid #E1E1E1;
 }
 
 .subscribe-field:hover {
   background: #E9E9E9;
+}
+
+.subscribe-field:focus {
+  outline: none;
+  border: 1px solid red;
 }
 
 .subscribe-field::-webkit-input-placeholder {
@@ -529,7 +535,8 @@ body {
   font-size: 14px;
   line-height: 17px;
   font-weight: normal;
-  border: unset;
+  outline: none;
+  border: 1px solid #F16D7F;
 }
 
 .subscribe-button:hover {
