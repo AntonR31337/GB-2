@@ -183,6 +183,40 @@ body {
     height: 180px;
 }
 
+.product-filter {
+    margin-bottom: 61px;
+    display: flex;
+}
+.product-filter-main {
+    border: none;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+.product-filter-main img {
+    margin-left: 11px;
+}
+.product-filter-sort {
+    width: 296px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+.product-filter-sort-item-button {
+    border: none;
+    background-color: transparent;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+}
+.product-filter-sort-item-button img {
+    margin-left: 10px;
+}
+
 .feature-products-header {
     text-align: center;
     margin-bottom: 48px;
