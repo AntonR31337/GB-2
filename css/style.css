@@ -368,6 +368,15 @@ body {
   display: inline-block;
   color: #F26376;
   outline: 1px solid;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.feature-products_buttom:hover {
+  color: #fff;
+  background: #F16D7F;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .pagination {
