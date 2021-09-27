@@ -73,6 +73,51 @@ body {
   border: none;
 }
 
+.breadcrumb-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 51px;
+}
+
+.breadcrumb-wrap-list {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.breadcrumb-wrap-list-item {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #636363;
+  margin-left: 5px;
+}
+
+.breadcrumb-wrap-list .active {
+  color: #F16D7F;
+  font-weight: bold;
+}
+
+.breadcrumb {
+  background: #F8F3F4;
+}
+
+.breadcrumb-wrap-text-header {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #F16D7F;
+  padding: 60px 0;
+}
+
 .offer {
   background: #F1E4E6;
   margin-bottom: 65px;
@@ -200,6 +245,50 @@ body {
   height: 180px;
 }
 
+.product-filter {
+  margin-bottom: 61px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.product-filter-main {
+  border: none;
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+
+.product-filter-main img {
+  margin-left: 11px;
+}
+
+.product-filter-sort {
+  width: 296px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: auto;
+}
+
+.product-filter-sort-item-button {
+  border: none;
+  background-color: transparent;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6F6E6E;
+}
+
+.product-filter-sort-item-button img {
+  margin-left: 10px;
+}
+
 .feature-products-header {
   text-align: center;
   margin-bottom: 48px;
@@ -279,6 +368,37 @@ body {
   display: inline-block;
   color: #F26376;
   outline: 1px solid;
+}
+
+.pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pagination-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 18px 0 96px;
+  border: 1px solid #EBEBEB;
+}
+
+.pagination-wrap-list {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 284px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 12px 0;
 }
 
 .advantages {
@@ -410,11 +530,17 @@ body {
   line-height: 17px;
   font-weight: normal;
   opacity: 0.67;
-  border: unset;
+  outline: none;
+  border: 1px solid #E1E1E1;
 }
 
 .subscribe-field:hover {
   background: #E9E9E9;
+}
+
+.subscribe-field:focus {
+  outline: none;
+  border: 1px solid red;
 }
 
 .subscribe-field::-webkit-input-placeholder {
@@ -453,7 +579,8 @@ body {
   font-size: 14px;
   line-height: 17px;
   font-weight: normal;
-  border: unset;
+  outline: none;
+  border: 1px solid #F16D7F;
 }
 
 .subscribe-button:hover {
