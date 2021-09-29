@@ -1,0 +1,47 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.wrapper {
+    width: $wrapper-size;
+    margin: 0 auto;
+}
+
+.header {
+    background: $color_main-dark;
+    color: #fff;
+    padding: 18px 0;
+}
+
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-col-1 {
+    width: 111px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    text-decoration: none;
+    color: transparent;
+}
+.search-button {
+    background-color: transparent;
+    border: none;
+}
+
+.header-col-2 {
+    width: 168px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-button {
+    background-color: transparent;
+    border: none;
+}
