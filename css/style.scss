@@ -76,9 +76,7 @@ $color_main-dark: #222222;
     margin-left: 11px;
 }
 .product-filter-sort {
-    width: 296px;
     text-align: center;
-    display: flex;
     justify-content: space-around;
     margin: auto;
 }
@@ -90,6 +88,7 @@ $color_main-dark: #222222;
 }
 .product-filter-sort-item-button img {
     margin-left: 10px;
+    margin-right: 10px;
 }
 
 .pagination {
