@@ -300,7 +300,7 @@ body {
   background-image: url(../../img/product__main-img.jpeg);
   background-repeat: no-repeat;
   background-position-x: center;
-  background-position-y: bottom;
+  background-position-y: top;
   height: 777px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -347,7 +347,7 @@ body {
   width: 1140px;
   background-color: #fff;
   position: relative;
-  top: -40px;
+  top: -60px;
   border: 1px solid #EAEAEA;
   -webkit-box-shadow: 0px 4px 4px 0px #00000040;
           box-shadow: 0px 4px 4px 0px #00000040;
@@ -428,6 +428,16 @@ body {
 
 .product-card_buttom svg {
   margin-right: 23px;
+  fill: #EF5B70;
+}
+
+.product-card_buttom:hover {
+  color: #fff;
+  background-color: #F26376;
+}
+
+.product-card_buttom:hover svg {
+  fill: #fff;
 }
 
 .breadcrumb-wrap {
