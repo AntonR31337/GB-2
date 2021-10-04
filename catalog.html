@@ -35,14 +35,49 @@
             </ul>
         </nav>
     </section>
-    <form action="#" class="product-filter wrapper">
+    <div class="filter wrapper">
+        <details class="filter__main">
+            <summary class="filter__main__title">
+                Filter
+                <svg width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0.833333 10H4.16667C4.625 10 5 9.625 5 9.16667C5 8.70833 4.625 8.33333 4.16667 8.33333H0.833333C0.375 8.33333 0 8.70833 0 9.16667C0 9.625 0.375 10 0.833333 10ZM0 0.833333C0 1.29167 0.375 1.66667 0.833333 1.66667H14.1667C14.625 1.66667 15 1.29167 15 0.833333C15 0.375 14.625 0 14.1667 0H0.833333C0.375 0 0 0.375 0 0.833333ZM0.833333 5.83333H9.16667C9.625 5.83333 10 5.45833 10 5C10 4.54167 9.625 4.16667 9.16667 4.16667H0.833333C0.375 4.16667 0 4.54167 0 5C0 5.45833 0.375 5.83333 0.833333 5.83333Z"/>
+                    </svg>
+            </summary>
+                <details open>
+                    <summary class="filter__main__title filter__main__title-line">CATEGORY <hr></summary>
+                        <ul class="filter__main__list">
+                            <li>Accessories</li>
+                            <li>Bags</li>
+                            <li>Denim</li>
+                            <li>Hoodies & Sweatshirts</li>
+                            <li>Jackets & Coats</li>
+                            <li>Polos</li>
+                            <li>Shirts</li>
+                            <li>Shoes</li>
+                            <li>Sweaters & Knits</li>
+                            <li>T-Shirts</li>
+                            <li>Tanks</li>
+                        </ul>
+                </details>
+                <details>
+                    <summary class="filter__main__title filter__main__title-line">BRAND <hr></summary>
+                        empty list
+                </details>
+                <details>
+                    <summary class="filter__main__title filter__main__title-line">DESIGNER <hr></summary>
+                        empty list
+                </details>
+        </details>
+    </div>
+
+    <!-- <form action="#" class="product-filter wrapper">
         <button class="product-filter-main">FILTER <img src="img/img-filter.svg" alt="filter"></button>
         <div class="product-filter-sort">
             <button class="product-filter-sort-item-button">TRENDING NOW <img src="img/img-td.svg" alt="sort-button"></button>
             <button class="product-filter-sort-item-button">SIZE <img src="img/img-td.svg" alt="sort-button"></button>
             <button class="product-filter-sort-item-button">PRICE <img src="img/img-td.svg" alt="sort-button"></button>
         </div>
-    </form>
+    </form> -->
     <section class="feature-products">
         <div class="wrapper feature-products-wrap">
             <ul class="feature-product-item">
