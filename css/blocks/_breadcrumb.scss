@@ -13,6 +13,10 @@
     line-height: 17px;
     color: #636363;
     margin-left: 5px;
+        & a {
+            text-decoration: none;
+            @include text-regular(300, #636363);
+        }
 }
 .breadcrumb-wrap-list .active {
     color: #F16D7F;

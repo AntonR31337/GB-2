@@ -297,7 +297,6 @@ body {
 
 .product-offer {
   background-color: #F7F7F7;
-  background-image: url(../../img/product__main-img.jpeg);
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: top;
@@ -467,6 +466,14 @@ body {
   margin-left: 5px;
 }
 
+.breadcrumb-wrap-list-item a {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 300;
+  color: #636363;
+}
+
 .breadcrumb-wrap-list .active {
   color: #F16D7F;
   font-weight: bold;
@@ -564,6 +571,18 @@ summary::-webkit-details-marker {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   margin: 12px 0;
+}
+
+.pagination-wrap-list-link {
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #C4C4C4;
+}
+
+.pagination-wrap-list-link-active {
+  color: #EF5B70;
 }
 
 .advantages {
