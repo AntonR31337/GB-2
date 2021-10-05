@@ -70,7 +70,7 @@ summary::-webkit-details-marker {
 
 .filter {
     margin-top: 51px;
-    margin-bottom: 61px;
+    margin-bottom: 64px;
     display: flex;
     position: relative;
 }
@@ -87,7 +87,7 @@ summary::-webkit-details-marker {
         }
 }
 .filter__main__title {
-    padding: 1em;
+    // padding: 1em;
     & svg {
         margin-left: 11px;
         fill: black;
@@ -101,30 +101,28 @@ summary::-webkit-details-marker {
     margin-left: 33px;
 }
 
-// .product-filter-main {
-//     border: none;
-//     background-color: transparent;
-//     @include text-regular(600, #000000)
-// }
+.product-filter {
+    margin: auto;
+}
 
-// .product-filter-main img {
-//     margin-left: 11px;
-// }
-// .product-filter-sort {
-//     text-align: center;
-//     justify-content: space-around;
-//     margin: auto;
-// }
+.product-filter-main img {
+    margin-left: 11px;
+}
+.product-filter-sort {
+    text-align: center;
+    justify-content: space-around;
+    margin: auto;
+}
 
-// .product-filter-sort-item-button {
-//     border: none;
-//     background-color: transparent;
-//     @include text-regular(400, #6F6E6E)
-// }
-// .product-filter-sort-item-button img {
-//     margin-left: 10px;
-//     margin-right: 10px;
-// }
+.product-filter-sort-item-button {
+    border: none;
+    background-color: transparent;
+    @include text-regular(400, #6F6E6E);
+}
+.product-filter-sort-item-button img {
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
 .pagination {
     display: flex;
