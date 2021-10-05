@@ -1,0 +1,107 @@
+.feature-products-wrap_product-page {
+    margin-top: 128px;
+    margin-bottom: 98px;
+}
+// .product-offer__wrapper {
+//     max-width: 1600px;
+// }
+.product-offer {
+    background-color: #F7F7F7;
+    background-image: url(../../img/product__main-img.jpeg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+    height: 777px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.product-offer_wrapper {
+    width: 1600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.product-offer__button {
+    width: 47px;
+    height: 47px;
+    border: none;
+        & svg {
+            fill: black;
+        }
+        &:hover svg {
+            fill: #F16D7F;
+        }
+}
+.product-card {
+    margin: auto;
+    padding-top: 64px;
+    width: $wrapper-size;
+    background-color: #fff;
+    position: relative;
+    top: -60px;
+    border: 1px solid #EAEAEA;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+        &_header {
+            @include text-regular(300,#F16D7F);
+            margin-bottom: 12px;
+        }
+        &__braker-top {
+            margin: 0 auto 12px;
+            width: 63px;
+            color: aqua;
+            border-bottom: 3px solid #EF5B70;
+        }
+        &_title {
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 22px;
+            color: #4D4D4D;
+            margin-bottom: 48px;
+        }
+        &_description {
+            width: 555px;
+            margin: 0 auto 32px;
+            @include text-regular(300,#5E5E5E);
+        }
+        &_price {
+            font-weight: 300;
+            font-size: 24px;
+            line-height: 29px;
+            color: #EF5B70;
+            margin-bottom: 64px;
+        }
+        &__braker-center {
+            width: 642px;
+            border-bottom: 1px solid #EAEAEA;
+            margin: 0 auto 64px;
+        }
+}
+.product-card_buttom {
+            margin: 48px auto 64px;
+            padding: 15px 39px;
+            text-decoration: none;
+            display: inline-block;
+            color: #F26376;
+            outline: 1px solid;
+            transition: 0.3s;
+            display: flex;
+            align-items: center;
+            font-size: 16px;
+            line-height: 19px;
+                & svg {
+                    margin-right: 23px;
+                    fill: #EF5B70;
+                }
+                &:hover {
+                    color: #fff;
+                    background-color: #F26376;
+                }
+                &:hover svg {
+                    fill: #fff;
+                }
+}
