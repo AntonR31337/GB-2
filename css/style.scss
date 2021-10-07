@@ -16,7 +16,9 @@ $color_main-dark: #222222;
 
 @import "blocks/_header.scss";
 
-@import "blocks/cart";
+@import "blocks/_cart.scss";
+
+@import "blocks/_registration.scss";
 
 .offer {
     background: #F1E4E6;
@@ -41,7 +43,15 @@ $color_main-dark: #222222;
     line-height: 48px;
     color: $color_main-dark;
     padding-left: 16px;
-    border-left: 12px solid #F16D7F;;
+    border-left: 12px solid #F16D7F;
+    transition: 0.3s;
+        &:hover {
+            -moz-transform: rotate(-180deg);
+            -webkit-transform: rotate(-180deg);
+            -o-transform: rotate(-180deg);
+            -ms-transform: rotate(-180deg);
+            transform: rotate(-180deg);
+        }
 }
 
 .brand_text-small {
