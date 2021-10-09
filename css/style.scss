@@ -89,6 +89,7 @@ summary::-webkit-details-marker {
 .filter__main {
     width: 360px;
     position: absolute;
+    z-index: 1000;
 }
 .filter__main[open] {
     width: 360px;
