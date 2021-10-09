@@ -48,6 +48,13 @@ body {
 .logo {
   text-decoration: none;
   color: transparent;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.logo:hover {
+  -webkit-transform: rotate(-1800deg);
+          transform: rotate(-1800deg);
 }
 
 .search-button {

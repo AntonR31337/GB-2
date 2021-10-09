@@ -29,6 +29,10 @@ body {
 .logo {
     text-decoration: none;
     color: transparent;
+    transition: 1s;
+        &:hover {
+            transform: rotate(-360deg*5)
+        }
 }
 .search-button {
     background-color: transparent;
