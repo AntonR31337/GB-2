@@ -504,6 +504,7 @@ body {
 
 .feature-products-overlay {
   position: absolute;
+  z-index: 10;
   background: rgba(58, 56, 56, 0.86);
   width: 100%;
   height: 420px;
@@ -817,23 +818,33 @@ summary::-webkit-details-marker {
   display: -ms-flexbox;
   display: flex;
   position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .filter__main {
   width: 360px;
   position: absolute;
   z-index: 1000;
+  padding: 13px 16px 16px 16px;
 }
 
 .filter__main[open] {
+  top: -25px;
   width: 360px;
   -webkit-box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
           box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
   background-color: white;
 }
 
-.filter__main[open][open] svg {
+.filter__main[open][open] svg, .filter__main[open] span {
   fill: #EF5B70;
+  color: #EF5B70;
+}
+
+.filter__main__title {
+  padding: 11px;
 }
 
 .filter__main__title svg {
@@ -843,11 +854,22 @@ summary::-webkit-details-marker {
 
 .filter__main__title-line {
   border-left: 5px solid  #EF5B70;
+  border-bottom: 1px solid #EBEBEB;
+  margin-bottom: 18px;
 }
 
 .filter__main__list {
   list-style-type: none;
   margin-left: 33px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6F6E6E;
+}
+
+.filter__main__list li {
+  margin-bottom: 11px;
 }
 
 .product-filter {

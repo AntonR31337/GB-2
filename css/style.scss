@@ -85,33 +85,48 @@ summary::-webkit-details-marker {
     margin-bottom: 64px;
     display: flex;
     position: relative;
+    align-items: center;
 }
 .filter__main {
     width: 360px;
     position: absolute;
     z-index: 1000;
+    padding: 13px 16px 16px 16px;
 }
 .filter__main[open] {
+    top: -25px;
     width: 360px;
     box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
     background-color: white;
-        &[open] svg {
+        &[open] svg, span {
             fill: #EF5B70;
+            color: #EF5B70;
         }
 }
 .filter__main__title {
-    // padding: 1em;
+    // margin-bottom: 16px;
+    padding: 11px;
     & svg {
         margin-left: 11px;
         fill: black;
     }
     &-line {
         border-left: 5px solid  #EF5B70;
+        border-bottom: 1px solid #EBEBEB;
+        margin-bottom: 18px;
     }
 }
 .filter__main__list {
     list-style-type: none;
     margin-left: 33px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+        & li {
+            margin-bottom: 11px;
+        }
 }
 
 .product-filter {
