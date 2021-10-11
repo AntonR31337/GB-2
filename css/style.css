@@ -18,6 +18,7 @@ body {
   background: #222222;
   color: #fff;
   padding: 18px 0;
+  position: relative;
 }
 
 .header-wrap {
@@ -78,6 +79,83 @@ body {
 .menu-button {
   background-color: transparent;
   border: none;
+}
+
+.main-menu {
+  width: 232px;
+  background-color: white;
+  -webkit-box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+          box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+  padding: 40px 36px;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  z-index: 1000;
+  min-height: 764px;
+}
+
+.main-menu_box {
+  position: relative;
+}
+
+.main-menu_close-btn {
+  position: absolute;
+  top: -30px;
+  right: -26px;
+  background-color: transparent;
+  padding: 10px;
+  border: none;
+}
+
+.main-menu_close-btn svg {
+  fill: #6F6E6E;
+}
+
+.main-menu_close-btn svg:hover {
+  fill: #F16D7F;
+}
+
+.main-menu_title {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 300;
+  color: #222224;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.main-menu_list {
+  list-style: none;
+  text-decoration: none;
+}
+
+.main-menu_list_item {
+  margin-bottom: 12px;
+}
+
+.main-menu_link {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 300;
+  color: #F16D7F;
+  text-transform: uppercase;
+}
+
+.main-menu_submenu {
+  padding-left: 20px;
+}
+
+.main-menu_submenu_link {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 300;
+  color: #6F6E6E;
+}
+
+.main-menu_submenu_item {
+  margin-top: 12px;
 }
 
 .cart {

@@ -11,6 +11,7 @@ body {
     background: $color_main-dark;
     color: #fff;
     padding: 18px 0;
+    position: relative;
 }
 
 .header-wrap {
@@ -48,4 +49,59 @@ body {
 .menu-button {
     background-color: transparent;
     border: none;
+}
+.main-menu {
+    width: 232px;
+    background-color: white;
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+    padding: 40px 36px;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    z-index: 1000;
+    min-height: 764px;
+        &_box {
+            position: relative;
+        }
+        &_close-btn {
+            position: absolute;
+            top: -30px;
+            right: -26px;
+            background-color: transparent;
+            padding: 10px;
+            border: none;
+                & svg {
+                    fill: #6F6E6E;
+                    &:hover {
+                        fill: #F16D7F;
+                    }
+                }
+        }
+        &_title {
+            @include text-regular();
+            font-weight: bold;
+            margin-bottom: 25px;
+        }
+        &_list {
+            list-style: none;
+            text-decoration: none;
+        }
+        &_list_item {
+            margin-bottom: 12px;
+        }
+        &_link {
+            text-decoration: none;
+            @include text-regular(300, #F16D7F);
+            text-transform: uppercase;
+        }
+}
+.main-menu_submenu {
+    padding-left: 20px;
+        &_link {
+            text-decoration: none;
+            @include text-regular(300, #6F6E6E);
+        }
+        &_item {
+            margin-top: 12px;
+        }
 }
