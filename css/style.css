@@ -831,7 +831,7 @@ summary::-webkit-details-marker {
 }
 
 .filter__main[open] {
-  top: -25px;
+  top: -26px;
   width: 360px;
   -webkit-box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
           box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
@@ -872,22 +872,30 @@ summary::-webkit-details-marker {
   margin-bottom: 11px;
 }
 
-.product-filter {
-  margin: auto;
-}
-
 .product-filter-main img {
   margin-left: 11px;
 }
 
-.product-filter-sort {
-  text-align: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+.product-filter-checkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  z-index: 1000;
+}
+
+.product-filter-checkbox-trending, .product-filter-checkbox-size, .product-filter-checkbox-price {
+  position: relative;
+}
+
+.product-filter-chechbox-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   margin: auto;
 }
 
-.product-filter-sort-item-button {
+.product-filter-chechbox-title {
   border: none;
   background-color: transparent;
   font-size: 14px;
@@ -896,9 +904,35 @@ summary::-webkit-details-marker {
   color: #6F6E6E;
 }
 
-.product-filter-sort-item-button img {
+.product-filter-chechbox-title img {
   margin-left: 10px;
   margin-right: 10px;
+}
+
+.checkbox {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 5px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #FFFFFF;
+  -webkit-box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+          box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+  font-size: 14px;
+  line-height: 16px;
+  color: #6F6E6E;
+}
+
+.product-filter-chechbox-item input {
+  margin: 9px;
 }
 
 .pagination {

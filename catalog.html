@@ -40,7 +40,6 @@
     <div class="filter wrapper">
         <details class="filter__main">
             <summary class="filter__main__title">
-            <!-- span не помогает, нужно переделать -->
                 <span>Filter</span>
                 <svg width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
@@ -76,16 +75,56 @@
                 empty list
             </details>
         </details>
-        <form action="#" class="product-filter">
-            <div class="product-filter-sort">
-                <button class="product-filter-sort-item-button">TRENDING NOW <img src="img/img-td.svg"
-                        alt="sort-button"></button>
-                <button class="product-filter-sort-item-button">SIZE <img src="img/img-td.svg" alt="sort-button">
-                </button>
-                <button class="product-filter-sort-item-button">PRICE <img src="img/img-td.svg"
-                        alt="sort-button"></button>
+        <div class="product-filter-checkbox">
+            <div class="product-filter-checkbox-trending">
+                <details class="product-filter-chechbox-container">
+                    <summary class="product-filter-chechbox-title">TRENDING NOW
+                        <img src="img/img-td.svg" alt="sort-button">
+                    </summary>
+                    <div class="checkbox">
+                        <label class="product-filter-chechbox-item"><input type="checkbox" name="size"> XS</label>
+
+                        <label class="product-filter-chechbox-item"><input type="checkbox" name="size"> S</label>
+
+                        <label class="product-filter-chechbox-item"><input type="checkbox" name="size"> M</label>
+                        
+                        <label class="product-filter-chechbox-item"><input type="checkbox" name="size"> L</label>
+                        </div>       
+            </details>
             </div>
-        </form>
+            <div class="product-filter-checkbox-size">
+                <details class="product-filter-chechbox-container">
+                    <summary class="product-filter-chechbox-title">SIZE
+                        <img src="img/img-td.svg" alt="sort-button">
+                    </summary>
+                    <div class="checkbox">
+                        <label class="product-filter-chechbox-item"><input type="checkbox" name="size"> XS</label>
+
+                        <label class="product-filter-chechbox-item"><input type="checkbox" name="size"> S</label>
+
+                        <label class="product-filter-chechbox-item"><input type="checkbox" name="size"> M</label>
+                        
+                        <label class="product-filter-chechbox-item"><input type="checkbox" name="size"> L</label>
+                        </div>       
+            </details>
+            </div>
+            <div class="product-filter-checkbox-price">
+                <details class="product-filter-chechbox-container">
+                    <summary class="product-filter-chechbox-title">PRICE
+                        <img src="img/img-td.svg" alt="sort-button">
+                    </summary>
+                    <div class="checkbox">
+                        <label class="product-filter-chechbox-item"><input type="checkbox" name="size"> XS</label>
+    
+                        <label class="product-filter-chechbox-item"><input type="checkbox" name="size"> S</label>
+    
+                        <label class="product-filter-chechbox-item"><input type="checkbox" name="size"> M</label>
+                        
+                        <label class="product-filter-chechbox-item"><input type="checkbox" name="size"> L</label>
+                        </div>       
+                    </details>
+            </div>
+        </div>
     </div>
 
     <section class="feature-products">
