@@ -105,3 +105,9 @@ body {
             margin-top: 12px;
         }
 }
+
+@media (max-width:1200px) {
+    .wrapper {
+        width: 735px;
+    }
+}
