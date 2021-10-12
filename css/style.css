@@ -433,7 +433,7 @@ body {
 .brand_text {
   font-weight: 900;
   font-size: 48px;
-  line-height: 48px;
+  line-height: 35px;
   color: #222222;
   padding-left: 16px;
   border-left: 12px solid #F16D7F;
@@ -539,6 +539,22 @@ body {
   margin-top: 30px;
   width: 100%;
   height: 180px;
+}
+
+@media (max-width: 1200px) {
+  .categories-item {
+    width: 232px;
+    height: 167px;
+    background-size: cover;
+  }
+  .categories-item-acc {
+    width: 100%;
+    height: 116px;
+    margin-top: 20px;
+  }
+  .categories {
+    padding-bottom: 155px;
+  }
 }
 
 .feature-products-header {
@@ -684,6 +700,15 @@ body {
   background: #F16D7F;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+}
+
+@media (max-width: 1200px) {
+  .feature-product-item {
+    margin-bottom: 16px;
+  }
+  .feature-products_buttom {
+    margin: 16px auto 64px;
+  }
 }
 
 .feature-products-wrap_product-page {
@@ -1107,6 +1132,19 @@ summary::-webkit-details-marker {
   color: #FBFBFB;
 }
 
+@media (max-width: 1200px) {
+  .advantages-list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 48px 0 64px;
+  }
+  .advantages-item {
+    padding: 48px 0;
+  }
+}
+
 .feedback {
   height: 448px;
   background-image: url(../img/photo_subscribe.jpeg);
@@ -1255,6 +1293,29 @@ summary::-webkit-details-marker {
   background: #f34b61;
 }
 
+@media (max-width: 1200px) {
+  .feedback {
+    height: 100%;
+    background-position-x: -330px;
+  }
+  .feedback-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .feedback-subscribers {
+    margin-top: 64px;
+  }
+  .feedback-subscribe {
+    margin-top: 48px;
+    margin-bottom: 140px;
+  }
+}
+
 .footer {
   background-color: #222222;
 }
@@ -1296,5 +1357,20 @@ summary::-webkit-details-marker {
 
 .footer-wrap-sociallinks-item:hover .footer-wrap-sociallinks-item-sight {
   fill: #FFFFFF;
+}
+
+@media (max-width: 1200px) {
+  .offer-wrap {
+    width: 770px;
+    height: 368px;
+    background-size: contain;
+    background-position-x: left;
+    background-position-y: 16px;
+  }
+  .brand_text-small, .brand_text-fashion {
+    font-size: 24px;
+    line-height: 29px;
+    margin-right: 16px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

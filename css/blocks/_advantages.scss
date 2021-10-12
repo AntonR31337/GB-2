@@ -38,3 +38,13 @@
     line-height: 17px;
     color: #FBFBFB;
 }
+
+@media (max-width: 1200px) {
+    .advantages-list {
+        flex-direction: column;
+        padding: 48px 0 64px;
+    }
+    .advantages-item {
+        padding: 48px 0;
+    }
+}

@@ -40,7 +40,7 @@ $color_main-dark: #222222;
 .brand_text {
     font-weight: 900;
     font-size: 48px;
-    line-height: 48px;
+    line-height: 35px;
     color: $color_main-dark;
     padding-left: 16px;
     border-left: 12px solid #F16D7F;
@@ -201,3 +201,18 @@ summary::-webkit-details-marker {
 @import "blocks/_advantages.scss";
 @import "blocks/_feedback.scss";
 @import "blocks/_footer.scss";
+
+@media (max-width:1200px) {
+    .offer-wrap {
+        width: 770px;
+        height: 368px;
+        background-size: contain;
+        background-position-x: left;
+        background-position-y: 16px;
+    }
+    .brand_text-small, .brand_text-fashion {
+        font-size: 24px;
+        line-height: 29px;
+        margin-right: 16px;
+    }
+}

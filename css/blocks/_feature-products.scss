@@ -106,3 +106,12 @@
     background: #F16D7F;
     transition: 0.3s;
 }
+
+@media (max-width: 1200px) {
+    .feature-product-item {
+        margin-bottom: 16px;
+    }
+    .feature-products_buttom {
+        margin: 16px auto 64px;
+    }
+}

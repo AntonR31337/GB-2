@@ -95,3 +95,21 @@
             background: #f34b61;
         }
 }
+
+@media (max-width: 1200px) {
+    .feedback {
+        height: 100%;
+        background-position-x: -330px;
+    }
+    .feedback-wrap {
+        flex-direction: column;
+        align-items: center;
+    }
+    .feedback-subscribers {
+        margin-top: 64px;
+    }
+    .feedback-subscribe {
+        margin-top: 48px;
+        margin-bottom: 140px;
+    }
+}

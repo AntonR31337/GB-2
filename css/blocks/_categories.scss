@@ -58,3 +58,19 @@
     width: 100%;
     height: 180px;
 }
+
+@media (max-width:1200px) {
+    .categories-item {
+        width: 232px;
+        height: 167px;
+        background-size: cover;
+    }
+    .categories-item-acc {
+        width: 100%;
+        height: 116px;
+        margin-top: 20px;
+    }
+    .categories {
+        padding-bottom: 155px;
+    }
+}
