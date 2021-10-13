@@ -26,3 +26,16 @@
 .footer-wrap-sociallinks-item:hover .footer-wrap-sociallinks-item-sight {
     fill: #FFFFFF;
 }
+
+@media (max-width: 767px) {
+    .footer-copyrites {
+        margin: 40px 0 9px;
+    }
+    .footer-wrap {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .footer-wrap-sociallinks {
+        margin-top: 43px;
+    }
+}

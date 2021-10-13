@@ -115,3 +115,14 @@
         margin: 16px auto 64px;
     }
 }
+@media (max-width: 767px) {
+    .feature-products-header {
+        margin-bottom: 65px;
+    }
+    .feature-products-wrap {
+        justify-content: center;
+    }
+    .feature-products_buttom {
+        margin: 24px auto 96px;
+    }
+}

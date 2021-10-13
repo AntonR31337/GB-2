@@ -203,6 +203,9 @@ summary::-webkit-details-marker {
 @import "blocks/_footer.scss";
 
 @media (max-width:1200px) {
+    .offer {
+        margin-bottom: 20px;
+    }
     .offer-wrap {
         width: 770px;
         height: 368px;
@@ -214,5 +217,24 @@ summary::-webkit-details-marker {
         font-size: 24px;
         line-height: 29px;
         margin-right: 16px;
+    }
+}
+
+@media (max-width:767px) {
+    .offer {
+        margin-bottom: 33px;
+    }
+    .offer-wrap {
+        background-image: none;
+        justify-content: center;
+    }
+    .offer-wrap {
+        width: 100%;
+    }
+    .brand_text {
+        font-size: 38px;
+    }
+    .brand_text-fashion, .brand_text-small {
+        font-size: 20px;
     }
 }
