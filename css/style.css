@@ -168,10 +168,14 @@ body {
   .wrapper {
     width: 375px;
   }
+  .header-col-1 {
+    margin-left: 16px;
+  }
   .header-col-2 {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: end;
+    margin-right: 16px;
   }
   .menu-button_registration, .menu-button_cart {
     display: none;
@@ -418,6 +422,51 @@ body {
   100% {
     -webkit-box-shadow: 0px 0px 20px 5px #f70a4c;
             box-shadow: 0px 0px 20px 5px #f70a4c;
+  }
+}
+
+@media (max-width: 1200px) {
+  .cart {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .cart__item {
+    width: 734px;
+  }
+  .cart__wrap__btn {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .cart__wrap__btn_item {
+    margin-bottom: 0;
+  }
+  .cart__order-date {
+    margin-top: 64px;
+    margin-bottom: 128px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+  }
+  .cart__order__result {
+    margin-top: 38px;
+  }
+  .cart__order-date_input, .cart__order__result {
+    width: 360px;
+  }
+}
+
+@media (max-width: 767px) {
+  .cart__item {
+    width: 358px;
+  }
+  .cart__item-image {
+    width: 143px;
+    height: 188px;
   }
 }
 
@@ -789,8 +838,12 @@ body {
   position: relative;
 }
 
+.product-offer-img {
+  min-width: 150px;
+}
+
 .product-offer_wrapper {
-  width: 1600px;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -819,7 +872,7 @@ body {
 .product-card {
   margin: auto;
   padding-top: 64px;
-  width: 1140px;
+  max-width: 1140px;
   background-color: #fff;
   position: relative;
   top: -60px;
@@ -860,7 +913,7 @@ body {
 }
 
 .product-card_description {
-  width: 555px;
+  max-width: 555px;
   margin: 0 auto 32px;
   font-size: 14px;
   line-height: 17px;
@@ -913,6 +966,21 @@ body {
 
 .product-card_buttom:hover svg {
   fill: #fff;
+}
+
+@media (max-width: 1200px) {
+  .product-card {
+    top: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .product-card_description {
+    max-width: 555px;
+  }
+  .product-card__braker-center {
+    width: 175px;
+  }
 }
 
 .breadcrumb-wrap {
