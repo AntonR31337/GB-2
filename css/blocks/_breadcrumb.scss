@@ -32,3 +32,16 @@
     color: #F16D7F;
     padding: 60px 0;
 }
+
+@media (max-width: 767px) {
+    .breadcrumb-wrap {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .breadcrumb-wrap-text-header {
+        padding: 24px 0 32px;
+    }
+    .breadcrumb-wrap-list {
+        margin-bottom: 46px;
+    }
+}

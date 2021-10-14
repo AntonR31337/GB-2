@@ -108,8 +108,12 @@
 }
 
 @media (max-width: 1200px) {
+    .feature-products-wrap {
+        justify-content: center;
+        gap: 15px;
+    }
     .feature-product-item {
-        margin-bottom: 16px;
+        margin-bottom: 0;
     }
     .feature-products_buttom {
         margin: 16px auto 64px;

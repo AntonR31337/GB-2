@@ -90,7 +90,7 @@ summary::-webkit-details-marker {
 .filter__main {
     width: 360px;
     position: absolute;
-    z-index: 1000;
+    z-index: 1001;
     padding: 13px 16px 16px 16px;
 }
 .filter__main[open] {
@@ -109,6 +109,8 @@ summary::-webkit-details-marker {
     & svg {
         margin-left: 11px;
         fill: black;
+        width: 15px;
+        height: 10px;
     }
     &-line {
         border-left: 5px solid  #EF5B70;
@@ -135,7 +137,7 @@ summary::-webkit-details-marker {
 .product-filter-checkbox {
     display: flex;
     margin: auto;
-    z-index: 1000;
+    z-index: 999;
 }
 .product-filter-checkbox-trending, .product-filter-checkbox-size, .product-filter-checkbox-price {
     position: relative;
@@ -218,6 +220,10 @@ summary::-webkit-details-marker {
         line-height: 29px;
         margin-right: 16px;
     }
+    .filter {
+        margin-top: 24px;
+        margin-bottom: 40px;
+    }
 }
 
 @media (max-width:767px) {
@@ -236,5 +242,22 @@ summary::-webkit-details-marker {
     }
     .brand_text-fashion, .brand_text-small {
         font-size: 20px;
+    }
+    .filter {
+        justify-content: end;
+    }
+    .filter__main {
+        top: -26px;
+        left: -7%;
+    }
+    .filter__main__title span{
+        display: none;
+    }
+    .filter__main__title svg {
+        width: 37px;
+        height: 25px;
+    }
+    .product-filter-checkbox {
+        margin: 0;
     }
 }

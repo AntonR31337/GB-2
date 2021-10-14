@@ -738,8 +738,14 @@ body {
 }
 
 @media (max-width: 1200px) {
+  .feature-products-wrap {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 15px;
+  }
   .feature-product-item {
-    margin-bottom: 16px;
+    margin-bottom: 0;
   }
   .feature-products_buttom {
     margin: 16px auto 64px;
@@ -961,6 +967,22 @@ body {
   padding: 60px 0;
 }
 
+@media (max-width: 767px) {
+  .breadcrumb-wrap {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .breadcrumb-wrap-text-header {
+    padding: 24px 0 32px;
+  }
+  .breadcrumb-wrap-list {
+    margin-bottom: 46px;
+  }
+}
+
 summary {
   display: block;
 }
@@ -984,7 +1006,7 @@ summary::-webkit-details-marker {
 .filter__main {
   width: 360px;
   position: absolute;
-  z-index: 1000;
+  z-index: 1001;
   padding: 13px 16px 16px 16px;
 }
 
@@ -1008,6 +1030,8 @@ summary::-webkit-details-marker {
 .filter__main__title svg {
   margin-left: 11px;
   fill: black;
+  width: 15px;
+  height: 10px;
 }
 
 .filter__main__title-line {
@@ -1039,7 +1063,7 @@ summary::-webkit-details-marker {
   display: -ms-flexbox;
   display: flex;
   margin: auto;
-  z-index: 1000;
+  z-index: 999;
 }
 
 .product-filter-checkbox-trending, .product-filter-checkbox-size, .product-filter-checkbox-price {
@@ -1354,6 +1378,9 @@ summary::-webkit-details-marker {
 }
 
 @media (max-width: 1200px) {
+  .pagination-wrap {
+    margin: 24px 0 63px;
+  }
   .feedback {
     height: 100%;
     background-position-x: -330px;
@@ -1459,6 +1486,10 @@ summary::-webkit-details-marker {
     line-height: 29px;
     margin-right: 16px;
   }
+  .filter {
+    margin-top: 24px;
+    margin-bottom: 40px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -1479,6 +1510,25 @@ summary::-webkit-details-marker {
   }
   .brand_text-fashion, .brand_text-small {
     font-size: 20px;
+  }
+  .filter {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+  }
+  .filter__main {
+    top: -26px;
+    left: -7%;
+  }
+  .filter__main__title span {
+    display: none;
+  }
+  .filter__main__title svg {
+    width: 37px;
+    height: 25px;
+  }
+  .product-filter-checkbox {
+    margin: 0;
   }
 }
 /*# sourceMappingURL=style.css.map */
