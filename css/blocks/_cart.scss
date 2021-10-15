@@ -213,9 +213,38 @@
 @media (max-width:767px) {
     .cart__item {
         width: 358px;
+        height: 188px;
+            &__about {
+                margin: 13px 53px 37px 17px;
+            }
+            &__about-content {
+                font-size: 14px;
+                line-height: 16px;
+            }
             &-image {
                 width: 143px;
                 height: 188px;
             }
+            &-close-btn svg {
+                margin: 17px;
+            }
+            &__about_title {
+                font-size: 16px;
+                line-height: 16px;
+                margin-bottom: 25px;
+            }
+            &__about-quantity {
+                font-size: 14px;
+                line-height: 15px;
+            }
+            &__about-input {
+                width: 24px;
+                padding-left: 8px;
+                font-size: 10px;
+                line-height: 12px;
+            }
+    }
+    .cart__wrap {
+        margin-top: 39px;
     }
 }
