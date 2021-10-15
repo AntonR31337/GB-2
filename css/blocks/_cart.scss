@@ -246,5 +246,24 @@
     }
     .cart__wrap {
         margin-top: 39px;
+            &__btn_item {
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 14px;
+                width: 175px;
+                padding: 9px;
+                text-align: center;
+            }
+            &__btn {
+                justify-content: space-between;
+            }
+    }
+    .cart__order-date {
+        flex-wrap: wrap;
+        margin-top: 48px;
+        margin-bottom: 96px;
+    }
+    .cart__order__result {
+        margin-top: 48px;
     }
 }

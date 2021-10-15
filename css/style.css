@@ -497,6 +497,28 @@ body {
   .cart__wrap {
     margin-top: 39px;
   }
+  .cart__wrap__btn_item {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    width: 175px;
+    padding: 9px;
+    text-align: center;
+  }
+  .cart__wrap__btn {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .cart__order-date {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: 48px;
+    margin-bottom: 96px;
+  }
+  .cart__order__result {
+    margin-top: 48px;
+  }
 }
 
 .offer {
