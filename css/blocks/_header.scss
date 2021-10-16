@@ -60,6 +60,10 @@ body {
     top: 100%;
     z-index: 1000;
     min-height: 764px;
+    transition: 0.5s;
+        &:hover {
+            opacity: 0;
+        }
         &_box {
             position: relative;
         }
