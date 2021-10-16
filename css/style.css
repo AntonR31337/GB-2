@@ -636,13 +636,17 @@ body {
   color: #222222;
 }
 
-.registration__date_radio:last-child {
-  display: none;
-}
-
 .registration__date_radio-item {
   margin-right: 20px;
   margin-left: 10px;
+}
+
+.registration__date_radio-item:last-child {
+  display: none;
+}
+
+.registration__date_radio-item input {
+  margin-right: 10px;
 }
 
 .registration__date-text {
@@ -685,6 +689,9 @@ body {
 @media (max-width: 1200px) {
   .registration__date {
     margin-right: 22px;
+  }
+  .registration__date_radio-item:last-child {
+    display: inline;
   }
   .registration__about {
     width: 354px;

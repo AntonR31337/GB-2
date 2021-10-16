@@ -52,13 +52,16 @@
     font-size: 11px;
     line-height: 13px;
     color: #222222;
-        &:last-child {
-            display: none;
-        }
 }
 .registration__date_radio-item {
     margin-right: 20px;
     margin-left: 10px;
+        &:last-child {
+            display: none;
+        }
+        & input {
+            margin-right: 10px;
+        }
 }
 .registration__date-text {
     width: 359px;
@@ -97,8 +100,8 @@
     }
     .registration__date {
         margin-right: 22px;
-        &_radio {
-
+        &_radio-item:last-child {
+            display: inline;
         }
     }
     .registration__about {
