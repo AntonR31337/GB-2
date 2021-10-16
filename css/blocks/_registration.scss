@@ -52,8 +52,16 @@
     font-size: 11px;
     line-height: 13px;
     color: #222222;
+        &:last-child {
+            display: none;
+        }
+}
+.registration__date_radio-item {
+    margin-right: 20px;
+    margin-left: 10px;
 }
 .registration__date-text {
+    width: 359px;
     font-weight: 300;
     font-size: 13px;
     line-height: 16px;
@@ -81,4 +89,41 @@
         &:hover svg {
             fill: #F16D7F;
         }
+}
+
+@media (max-width:1200px) {
+    .registration {
+        // flex-direction: column;
+    }
+    .registration__date {
+        margin-right: 22px;
+        &_radio {
+
+        }
+    }
+    .registration__about {
+        width: 354px;
+            &_title {
+                width: 354px;
+                font-size: 16px;
+                line-height: 19px;
+            }
+            &_text {
+                font-size: 16px;
+                line-height: 19px;
+            }
+            &_list {
+                font-size: 16px;
+line-height: 19px;
+            }
+    }
+}
+
+@media (max-width:767px) {
+    .registration {
+        flex-direction: column;
+            &__about {
+                margin-bottom: 80px;
+            }
+    }
 }
