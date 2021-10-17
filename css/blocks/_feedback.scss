@@ -97,6 +97,9 @@
 }
 
 @media (max-width: 1200px) {
+    .pagination-wrap {
+        margin: 24px 0 63px;
+    }
     .feedback {
         height: 100%;
         background-position-x: -330px;

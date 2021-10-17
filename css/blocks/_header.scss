@@ -116,4 +116,14 @@ body {
     .wrapper {
         width: 375px;
     }
+    .header-col-1 {
+        margin-left: 16px;
+    }
+    .header-col-2 {
+        justify-content: end;
+        margin-right: 16px;
+    }
+    .menu-button_registration, .menu-button_cart {
+        display: none;
+    }
 }

@@ -16,13 +16,17 @@
     justify-content: center;
     align-items: center;
     position: relative;
+        &-img {
+        min-width: 150px;
+    }
 }
 .product-offer_wrapper {
-    width: 1600px;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .product-offer__button {
     width: 47px;
     height: 47px;
@@ -37,7 +41,7 @@
 .product-card {
     margin: auto;
     padding-top: 64px;
-    width: $wrapper-size;
+    max-width: $wrapper-size;
     background-color: #fff;
     position: relative;
     top: -60px;
@@ -64,7 +68,7 @@
             margin-bottom: 48px;
         }
         &_description {
-            width: 555px;
+            max-width: 555px;
             margin: 0 auto 32px;
             @include text-regular(300,#5E5E5E);
         }
@@ -104,4 +108,18 @@
                 &:hover svg {
                     fill: #fff;
                 }
+}
+
+@media (max-width:1200px) {
+    .product-card {
+        top: 0;
+    }
+}
+@media (max-width: 767px) {
+    .product-card_description {
+        max-width: 555px;
+    }
+    .product-card__braker-center {
+        width: 175px;
+    }
 }
