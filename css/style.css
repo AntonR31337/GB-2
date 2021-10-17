@@ -75,6 +75,13 @@ body {
 .search-button {
   background-color: transparent;
   border: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.search-button:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .header-col-2 {
@@ -93,6 +100,23 @@ body {
 .menu-button {
   background-color: transparent;
   border: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.menu-button:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.menu-button_registration, .menu-button_cart {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.menu-button_registration:hover, .menu-button_cart:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .main-menu {
@@ -244,12 +268,22 @@ body {
   overflow: hidden;
 }
 
+.cart__item__about-link {
+  text-decoration: none;
+}
+
 .cart__item__about_title {
   font-size: 24px;
   line-height: 29px;
   color: #222222;
   text-transform: uppercase;
   margin-bottom: 42px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.cart__item__about_title:hover {
+  color: #F16D7F;
 }
 
 .cart__item__about-content {
@@ -1549,7 +1583,7 @@ summary::-webkit-details-marker {
     padding-bottom: 81px;
   }
   .advantages-item {
-    padding-top: 48px 0;
+    padding-top: 48px;
   }
 }
 
