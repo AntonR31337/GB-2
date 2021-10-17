@@ -111,22 +111,21 @@
         <form action="#" class="registration__date">
             <fieldset class="registration__date_fieldset">
                 <legend>Your Name</legend>
-                    <input class="registration__date_fieldset-input-item" type="text" name="first-name" placeholder="First Name">
-                    <input class="registration__date_fieldset-input-item" type="text" name="last-name" placeholder="Last Name">
+                    <input class="registration__date_fieldset-input-item" type="text" name="first-name" placeholder="First Name" minlength="1">
+                    <input class="registration__date_fieldset-input-item" type="text" name="last-name" placeholder="Last Name" minlength="1">
             </fieldset>
             <div class="registration__date_radio">
 
                 <label class="registration__date_radio-item">
-                    <input class="registration__date_radio-input" type="radio" id="gender-male"
+                    <input checked class="registration__date_radio-input" type="radio" id="gender-male"
                  name="gender" value="male">Male
                 </label>
-                <!-- <label class="registration__date_radio-item" for="gender-male">Male</label> -->
                 <label class="registration__date_radio-item">
                     <input class="registration__date_radio-input" type="radio" id="gender-female"
                  name="gender" value="female">Female
                 </label>
                 <label class="registration__date_radio-item">
-                    <input  class="registration__date_radio-input" type="radio" id="gender-other"
+                    <input class="registration__date_radio-input" type="radio" id="gender-other"
                  name="gender" value="other">
                 Other
                 </label>

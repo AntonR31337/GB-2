@@ -1210,6 +1210,8 @@ body {
 .product-card_buttom svg {
   margin-right: 23px;
   fill: #EF5B70;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .product-card_buttom:hover {
