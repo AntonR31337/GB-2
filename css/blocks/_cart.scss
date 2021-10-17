@@ -1,6 +1,8 @@
 .cart {
     display: flex;
     justify-content: space-between;
+    flex-grow: 1;
+    display: flex;
 }
 .cart__wrap {
     margin-top: 96px;

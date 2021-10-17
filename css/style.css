@@ -233,6 +233,10 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  display: flex;
 }
 
 .cart__wrap {
@@ -926,6 +930,13 @@ body {
     width: 343.26px;
     height: 111px;
   }
+}
+
+.feature-products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
 }
 
 .feature-products-header {
