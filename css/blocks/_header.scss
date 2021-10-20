@@ -38,6 +38,10 @@ body {
 .search-button {
     background-color: transparent;
     border: none;
+    transition: 0.3s;
+        &:hover {
+            transform: scale(1.2);
+        }
 }
 
 .header-col-2 {
@@ -49,6 +53,16 @@ body {
 .menu-button {
     background-color: transparent;
     border: none;
+    transition: 0.3s;
+        &:hover {
+            transform: scale(1.2);
+        }
+}
+.menu-button_registration, .menu-button_cart {
+    transition: 0.3s;
+        &:hover {
+            transform: scale(1.2);
+        }
 }
 .main-menu {
     width: 232px;
@@ -60,6 +74,10 @@ body {
     top: 100%;
     z-index: 1000;
     min-height: 764px;
+    transition: 0.5s;
+        &:hover {
+            opacity: 0;
+        }
         &_box {
             position: relative;
         }

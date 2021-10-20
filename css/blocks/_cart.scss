@@ -1,6 +1,8 @@
 .cart {
     display: flex;
     justify-content: space-between;
+    flex-grow: 1;
+    display: flex;
 }
 .cart__wrap {
     margin-top: 96px;
@@ -27,12 +29,19 @@
 .cart__item__about {
     margin: 22px 97px 62px 31px;
     overflow: hidden;
+        &-link {
+            text-decoration: none;
+        }
         &_title {
             font-size: 24px;
             line-height: 29px;
             color: #222222;
             text-transform: uppercase;
             margin-bottom: 42px;
+            transition: 0.3s;
+                &:hover {
+                    color: #F16D7F;
+                }
         }
         &-content {
             font-size: 22px;
