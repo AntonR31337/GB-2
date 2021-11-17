@@ -76,7 +76,7 @@ body {
     min-height: 764px;
     transition: 0.5s;
         &:hover {
-            opacity: 0;
+            opacity: 1;
         }
         &_box {
             position: relative;
@@ -113,6 +113,9 @@ body {
             text-transform: uppercase;
         }
 }
+.main-menu-hidden {
+    display: none;
+}
 .main-menu_submenu {
     padding-left: 20px;
         &_link {
@@ -144,4 +147,42 @@ body {
     .menu-button_registration, .menu-button_cart {
         display: none;
     }
+}
+// корзина
+.menu-button_cart-positions {
+    position: absolute;
+    background-color: white;
+    color: #F16D7F;
+    left: 40%;
+    top: 100%;
+    width: 500px;
+    list-style-type: none;
+    z-index: 1000;
+    padding: 10px;
+}
+.menu-button_cart-positions__title {
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    list-style-type: none;
+    
+}
+.menu-button_cart-positions__goods {
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.menu-button_cart-positions__summ {
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    
+}
+.menu-button_cart-positions__summ-title {
+    display: flex;
+    justify-content: space-between;
+}
+.list-style-none {
+    list-style-type: none;
 }
